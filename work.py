@@ -49,3 +49,13 @@ users_info = [["Kazuma", 35],
 print(f"Name: {users_info[0][0]}, Age: {users_info[0][1]}")
 print(f"Name: {users_info[1][0]}, Age: {users_info[1][1]}")
 print(f"Name: {users_info[2][0]}, Age: {users_info[2][1]}")
+
+print("--------------A-9--------------")
+
+# A-9 辞書
+# 期待するコードが動作するよう辞書を定義
+kazuma_info = {"first_name": "Kazma", "family_name": "Takahashi", "age": 35}
+
+print(kazuma_info["first_name"])  # "Kazuma"
+print(kazuma_info["family_name"])  # "Takahashi"
+print(kazuma_info["age"])  # 35
