@@ -17,3 +17,13 @@ print(members[1])
 # "Name: Takahashi Kazuma, Age: 35"と出力
 kazuma_info = ["Kazuma", "Takahashi", 35]
 print(f"Name: {kazuma_info[1]} {kazuma_info[0]}, Age: {kazuma_info[2]}")
+
+# A-6 forによるループその1
+odd_numbers = [1, 3, 5, 7, 9]
+for loop in odd_numbers:
+    print(loop)
+
+# A-7 forによるループその2
+even_numbers = [2, 4, 6, 8]
+for loop2 in even_numbers:
+    print(loop2 * 2)
